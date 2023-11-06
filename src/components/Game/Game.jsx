@@ -82,11 +82,11 @@ const Game = ({ numberOfBalloons, gameDuration }) => {
         {(state) => (
           <div className={`balloons-screen balloons-screen--${state}`}>
             <div className="game-nav">
-              <h1 className="game-title">Pop-a-balloon!</h1>
+              <h1 className="game-title">Tonttujahti!</h1>
               <div className="game-settings">
                 <ScoreCard score={score} time={timeRemaining} />
                 <Button type={"alert"} onClick={stopGame}>
-                  Stop
+                  Pysäytä
                 </Button>
               </div>
             </div>
@@ -98,7 +98,7 @@ const Game = ({ numberOfBalloons, gameDuration }) => {
           </div>
         )}
       </CSSTransition>
-      <Toast message={"+1 hits"} trigger={hit} />
+      <Toast message={"+1 nappaus"} trigger={hit} />
     </div>
   );
 };

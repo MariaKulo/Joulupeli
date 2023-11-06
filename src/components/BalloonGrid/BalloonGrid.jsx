@@ -63,7 +63,7 @@ const BalloonGrid = ({ numberOfBalloons, onBalloonClick }) => {
 
   return (
     <div className="balloon-grid-wrapper">
-      <p className="balloon-grid-caption">Click a balloon to score</p>
+      <p className="balloon-grid-caption">Klikkaa tonttua napataksesi se.</p>
       <div className="balloon-grid">{balloons}</div>
     </div>
   );

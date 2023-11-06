@@ -1,7 +1,7 @@
 const ScoreCard = ({ score, time }) => {
   return (
     <div className="game-score">
-      {score} hits / {time}s remaining
+      {score} nappausta / {time} sekuntia jäljellä
     </div>
   );
 };
