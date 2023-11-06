@@ -9,8 +9,8 @@
   font-weight: bold;
   padding: var(--btn-padding);
   border-radius: var(--btn-radius);
-  background-color: var(--acc-color);
-  color: var(--pri-color);
+  background-color: #bb010b;
+  color: var(--sec-color-light);
   border-color: var(--acc-color);
   border-style: solid;
   border-width: 1px;
@@ -23,7 +23,7 @@
 .btn:hover,
 .btn:active,
 .btn:focus {
-  background-color: var(--acc-color-dark);
+  background-color: #a20a0a;
   border-color: var(--acc-color-dark);
 }
 
