@@ -43,7 +43,7 @@
 }
 
 .balloon-cell {
-  cursor: url(../../assets/pin.svg) 8 8, pointer;
+  cursor: url(/src/assets/sack2.svg) 8 8, pointer;
   position: relative;
   padding: 3em 2em 0;
   overflow: hidden;

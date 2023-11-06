@@ -7,7 +7,7 @@ const CoverScreen = ({ score, onStartGame, duration }) => (
     {score > -1 ? (
       <p className="description">
         {`Nappasit ${
-          score === 0 ? "nothing" : `${score} ${score > 1 ? "tonttua" : "tontun"}`
+          score === 0 ? "nolla tonttua" : `${score} ${score > 1 ? "tonttua" : "tontun"}`
         }`}
       </p>
     ) : (
